@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/515deb5b82.js" crossorigin="anonymous"></script>
+    <title>Elevare</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-header">
+            <img src="images/logo.png" class="menu-logo" />
+
+            <div class="menu-icon" onclick="closeMenu()">
+                <i class="fa-solid fa-x menu-x"></i>
+            </div>
+        </div>
+
+        <div class="menu-label">Browse Our Pages</div>
+        <div class="menu-nav">
+            <a onclick="closeMenu()" href="#about" class="menu-link">About us</a>
+            <a onclick="closeMenu()" href="#work" class="menu-link">Projects</a>
+            <a onclick="closeMenu()" href="#testimonials" class="menu-link">Testimonials</a>
+            <a onclick="closeMenu()" href="#faq" class="menu-link">FAQs</a>
+            <a onclick="closeMenu()" href="#contact" class="menu-link">Contact</a>
+        </div>
+
+        <div class="menu-social">
+            <a href="https://www.instagram.com/elevare.creatives/" target="_blank" class="menu-social-wrapper"><i class="fa-brands fa-instagram"></i></a>
+            <a href="tel:+07716698892" class="menu-social-wrapper" target="_blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:info@elevarecreatives.com" target="_blank" class="menu-social-wrapper"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="menu-copy">© 2025, Elevare. All rights reserved.</div>
+    </div>
+
+    <div class="header">
+        <img src="images/logo.png" class="header-logo" />
+
+        <div class="header-nav">
+            <a href="#about" class="header-link">About us</a>
+            <a href="#work" class="header-link">Projects</a>
+            <a href="#testimonials" class="header-link">Testimonials</a>
+            <a href="#faq" class="header-link">FAQs</a>
+            <a href="#contact" class="header-link">Contact</a>
+        </div>
+
+        <a href="#contact" class="btn-header btn-primary">Get in Touch <img src="images/arrow.png" class="btn-arrow" /></a>
+
+        <div class="header-menu" onclick="openMenu()">
+            <div class="menu-line line1"></div>
+            <div class="menu-line line2"></div>
+            <div class="menu-line line3"></div>
+        </div>
+    </div>
+
+    <div class="stripe-container">
+        <div class="hero-stripe stripe1"></div>
+        <div class="hero-stripe stripe2"></div>
+    </div>
+
+    <div class="hero-container width">
+        <div class="hero-eyebrow-flex starter">
+            <div class="hero-eyebrow-line hero-line1"></div>
+            <div class="hero-eyebrow-circle"></div>
+            <div class="eyebrow hero-eyebrow">Video Editing Experts</div>
+            <div class="hero-eyebrow-circle"></div>
+            <div class="hero-eyebrow-line hero-line2"></div>
+        </div>
+        <div class="hero-title starter">Elevating Stories<br> That Drive Success</div>
+        <div class="hero-para starter">We transform raw footage into powerful, polished content that captivate audiences, elevate stories, inspire action, and drive measurable success.</div>
+        <div class="hero-btn-flex starter">
+            <a href="#contact" class="btn-hero btn-chat"><i class="fa-brands fa-whatsapp btn-chat-icon"></i> Chat Now</a>
+            <a href="#work" class="btn-hero btn-right btn-primary">See Our Works <img src="images/arrow.png" class="btn-arrow" /></a>
+        </div>
+    </div>
+
+    <div class="about-container width scroll-target" id="about">
+        <div class="about-img-container">
+            <img src="images/about-img.jpg" class="about-img" />
+        </div>
+
+        <div class="about-content">
+            <div class="eyebrow align-start scroll-target">Who We Are</div>
+            <div class="about-title scroll-target">About Elevare</div>
+            <div class="about-para scroll-target">
+At Elevare, we bring stories to life — creating content that connects, inspires, and converts.
+
+We’re a video editing and social media agency with one mission: helping brands and creators grow through powerful storytelling.
+
+In a world where attention is everything, we blend creativity with strategy to craft videos that capture it — turning your brand’s voice into content that feels real and unforgettable.
+
+Every project is a partnership, combining your vision with our craft to create something lasting.
+
+Elevare Creative isn’t just about editing — it’s about elevating stories, building connections, and growing your brand.
+            </div>
+            <div class="about-social">
+                <a target="_blank" href="mailto:info@elevarecreatives.com"><i class="fa-regular fa-envelope about-social-icon"></i></a>
+                <a target="_blank" href="tel:07716698892"><i class="fa-solid fa-phone about-social-icon"></i></a>
+                <a target="_blank" href="https://www.instagram.com/elevare.creatives/"><i class="fa-brands fa-instagram about-social-icon"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@elevare.creatives?_t=ZN-90xUSeKDy5O&_r=1"><i class="fa-brands fa-tiktok about-social-icon"></i></a>
+                <a target="_blank" href="https://youtube.com/@elevare.creatives?si=fC___XH_fxzbC2pw"><i class="fa-brands fa-youtube about-social-icon"></i></a>
+            </div>
+            <div class="about-hr-col scroll-target">
+                <div class="about-hr"></div>
+                <div class="about-hr"></div>
+            </div>
+            <div class="about-flex scroll-target">
+                <div class="about-col">
+                    <div class="about-head">3+</div>
+                    <div class="about-txt">Years Experience</div>
+                </div>
+                <div class="about-col">
+                    <div class="about-head">5m+</div>
+                    <div class="about-txt">Views Generated</div>
+                </div>
+                <div class="about-col">
+                    <div class="about-head">50+</div>
+                    <div class="about-txt">Projects Done</div>
+                </div>
+            </div>
+            <a href="#case" class="btn-about btn-primary scroll-target">Learn More <img src="images/arrow.png" class="btn-arrow" /></a>
+        </div>
+    </div>
+
+    <div class="container-bg" id="work">
+        <div class="work-container width">
+            <div class="hero-stripe work-stripe1"></div>
+            <div class="hero-stripe work-stripe2"></div>
+
+            <div class="work-top">
+                <div class="eyebrow">Our Projects</div>
+                <div class="work-title scroll-target">Discover Our Work</div>
+                <div class="work-para scroll-target">From concept to completion, we deliver engaging edits. Our portfolio shows dedication, innovation, and unforgettable visual storytelling.</div>
+            </div>
+    
+            <div class="work-box work-box-hori scroll-target">
+                <div class="work-content">
+                    <div class="work-head">NextDesign – Promotional Video</div>
+                    <a href="https://www.instagram.com/nextdesign.website/" class="work-link">View Portfolio</a>
+                    <div class="work-desc">We captured NextDesign’s creative energy through a cinematic promo video. The result is a smooth, modern piece that draws attention while showcasing their innovation, design quality, and digital craftsmanship.</div>
+                    <div class="work-tag-flex">
+                        <div class="work-tag">Promotional</div>
+                        <div class="work-tag">Brand Showcase</div>
+                        <div class="work-tag">Website Company</div>
+                    </div>
+                    <a href="#contact" class="btn-work">Get Started <img src="images/arrow.png" class="btn-arrow" /></a>
+                </div>
+    
+                <div class="work-img-container">
+                        <video autoplay muted loop playsinline class="work-video">
+                        <source src="images/videos/elevare5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+            </div>
+            <div class="work-box scroll-target">
+                <div class="work-content">
+                    <div class="work-head">Case Study – @motivationaltrained</div>
+                    <a href="https://www.instagram.com" class="work-link">View Portfolio</a>
+                    <div class="work-desc">We grew a TikTok account <b>from 1K to 58K+ followers</b> in just six months through strategic short-form video content, high-energy edits, and engaging captions. The campaign focused on consistent posting, audience engagement, and trends, resulting in rapid, sustainable growth and increased brand awareness.</div>
+                    <div class="work-tag-flex">
+                        <div class="work-tag">Social Media Strategy</div>
+                        <div class="work-tag">Short-Form Videos</div>
+                        <div class="work-tag">Target Audience</div>
+                    </div>
+                    <a target="_blank" href="https://www.tiktok.com/@motivationaltrained" class="btn-work">Visit Account <img src="images/arrow.png" class="btn-arrow" /></a>
+                </div>
+    
+                <div class="work-img-container" style="align-items: flex-start;">
+                    <img src="images/case-acc2.png" class="work-video" />
+                </div>
+            </div>
+            <div class="work-box scroll-target">
+                <div class="work-content">
+                    <div class="work-head">Animated Threads – Hoodie Showcase</div>
+                    <a href="https://www.instagram.com/nextdesign.website/" class="work-link">View Portfolio</a>
+                    <div class="work-desc">We brought a clothing brand’s hoodie to life by animating frame-by-frame movement. The result is a sleek, modern animation that grabs attention while highlighting product quality in a creative, visually striking way.</div>
+                    <div class="work-tag-flex">
+                        <div class="work-tag">Motion Design</div>
+                        <div class="work-tag">Product Showcase</div>
+                        <div class="work-tag">Clothing Brand</div>
+                    </div>
+                    <a href="#contact" class="btn-work">Get Started <img src="images/arrow.png" class="btn-arrow" /></a>
+                </div>
+    
+                <div class="work-img-container">
+                        <video autoplay muted loop playsinline class="work-video">
+                        <source src="images/videos/elevare4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+            </div>
+            <div class="work-box scroll-target">
+                <div class="work-content">
+                    <div class="work-head">Motivation in Motion – Short Form Promo</div>
+                    <a href="https://www.instagram.com/nextdesign.website/" class="work-link">View Portfolio</a>
+                    <div class="work-desc">We crafted a dynamic, high-energy short form video featuring a motivational speaker, designed to grab attention and promote a money course. The quick cuts, bold captions, and strong pacing keep viewers engaged from start to finish.</div>
+                    <div class="work-tag-flex">
+                        <div class="work-tag">Fast-Paced Editing</div>
+                        <div class="work-tag">Short Form</div>
+                        <div class="work-tag">Social Media</div>
+                    </div>
+                    <a href="#contact" class="btn-work">Get Started <img src="images/arrow.png" class="btn-arrow" /></a>
+                </div>
+    
+                <div class="work-img-container">
+                        <video autoplay muted loop playsinline class="work-video">
+                        <source src="images/videos/elevare2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+            </div>
+            <div class="work-box scroll-target">
+                <div class="work-content">
+                    <div class="work-head">Green Vision – Sustainability Campaign</div>
+                    <a href="https://www.instagram.com/nextdesign.website/" class="work-link">View Portfolio</a>
+                    <div class="work-desc">This project communicates a brand’s sustainability mission through engaging visuals and smooth video storytelling. The goal was to inspire trust and align the brand’s identity with eco-friendly values in a polished, modern style.</div>
+                    <div class="work-tag-flex">
+                        <div class="work-tag">Engaging Subtitles</div>
+                        <div class="work-tag">Eco-Focused</div>
+                        <div class="work-tag">Inspired Storytelling</div>
+                    </div>
+                    <a href="#contact" class="btn-work">Get Started <img src="images/arrow.png" class="btn-arrow" /></a>
+                </div>
+    
+                <div class="work-img-container">
+                        <video autoplay muted loop playsinline class="work-video">
+                        <source src="images/videos/elevare3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+            </div>
+            <div class="work-box scroll-target" style="margin-bottom: 0;">
+                <div class="work-content">
+                    <div class="work-head">Accounting Client – Financial Services</div>
+                    <a href="https://www.instagram.com/nextdesign.website/" class="work-link">View Portfolio</a>
+                    <div class="work-desc">This project transforms complex financial services into a professional, approachable online presence for an accounting firm. We highlighted trust, clarity, and precision through clean visuals and organized storytelling.</div>
+                    <div class="work-tag-flex">
+                        <div class="work-tag">Clear Messaging</div>
+                        <div class="work-tag">Accounting Services</div>
+                        <div class="work-tag">Professional Tone</div>
+                    </div>
+                    <a href="#contact" class="btn-work">Get Started <img src="images/arrow.png" class="btn-arrow" /></a>
+                </div>
+    
+                <div class="work-img-container">
+                        <video autoplay muted loop playsinline class="work-video">
+                        <source src="images/videos/elevare1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-bg" id="case">
+        <div class="hero-stripe case-stripe1"></div>
+        <div class="case-container width">
+            <div class="case-content scroll-target">
+                <div class="eyebrow">Case Study</div>
+                <div class="case-title">Results That Speak<br> For Themselves</div>
+                <div class="case-para">By refining visuals and pacing, we grew viewership dramatically and delivered meaningful results for business growth.</div>
+                <div class="case-nav">
+                    <i class="fa-solid fa-chevron-left case-chev" onclick="changeCase()"></i>
+                    <i class="fa-solid fa-chevron-right case-chev" onclick="changeCase()"></i>
+                </div>
+            </div>
+            <div class="case-bento case-bento-inactive" style="display: none;">
+                <div class="case-flex">
+                    <div class="exp-img-container">
+                        <img src="images/case-acc2.png" class="exp-img" />
+                    </div>
+                    <div class="case-desc-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-desc">Before working with us, this company's videos <span>barely reached 1.4K followers.</span> Weak visuals and rough editing made it hard to keep viewers engaged.<br><br>After partnering with us, everything changed. Better pacing and visuals kept viewers hooked, which boosted their videos to millions of views.</div>
+                    </div>
+                </div>
+                <div class="case-flex">
+                    <div class="case-desc-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-desc">A video we optimized for them <span>exceeded 1.7m views</span>, bringing in <span>over 50 thousand</span> new followers. This was a huge jump from their past results.<br><br>Our editing made the video more engaging, with better pacing and visuals. Higher retention led to a boost in views and engagement.</div>
+                    </div>
+                    <div class="exp-img-container" style="align-items: center;">
+                            <video autoplay muted loop playsinline class="work-video" style="margin-bottom: 150px;">
+                            <source src="images/case-vid.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video>
+                    </div>
+                </div>
+                <div class="case-flex">
+                    <div class="case-stat-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-stat-head">3m+</div>
+                        <div class="case-stat-txt">Generated Views</div>
+                    </div>
+                    <div class="case-stat-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-stat-head">58K+</div>
+                        <div class="case-stat-txt">Followers Gained</div>
+                    </div>
+                    <div class="case-stat-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-stat-head">583k</div>
+                        <div class="case-stat-txt">Total Likes</div>
+                    </div>
+                </div>
+            </div>
+            <div class="case-bento case-bento-active">
+                <div class="case-flex scroll-target">
+                    <div class="exp-img-container">
+                        <img src="images/case-rick1.jpg" class="exp-img" />
+                    </div>
+                    <div class="case-desc-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-desc">Before working with us, RicksRetro's videos <span>struggled to reach beyond 2K views.</span> Their content lacked rhythm and storytelling — visually appealing, but not converting scrolls into followers.<br><br>After partnering with us, we refined everything: tighter pacing, cinematic visuals, and a stronger narrative. Within weeks, their reels began hitting hundreds of thousands of views.</div>
+                    </div>
+                </div>
+                <div class="case-flex scroll-target">
+                    <div class="case-desc-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-desc">We created a video for them which <span>exceeded 100k views</span>, bringing in <span>over 50</span> new sales. This was a huge jump from their past results.<br><br>Our editing made the video more engaging, with better pacing and visuals. Higher retention led to a boost in views and engagement.</div>
+                    </div>
+                    <div class="exp-img-container" style="align-items: center;">
+                            <video autoplay muted loop playsinline class="work-video" style="margin-bottom: 150px;">
+                            <source src="images/case-rick-vid.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video>
+                    </div>
+                </div>
+                <div class="case-flex scroll-target">
+                    <div class="case-stat-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-stat-head">100k+</div>
+                        <div class="case-stat-txt">Generated Views</div>
+                    </div>
+                    <div class="case-stat-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-stat-head">150K+</div>
+                        <div class="case-stat-txt">Followers Gained</div>
+                    </div>
+                    <div class="case-stat-wrapper all-about">
+                        <div class="about-blur"></div>
+                        <div class="case-stat-head">50k+</div>
+                        <div class="case-stat-txt">Total Likes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-bg" id="testimonials">
+        <div class="hero-stripe test-stripe1"></div>
+        <div class="test-container width scroll-target">
+            <div class="test-flex">
+                <div class="test-left-col">
+                    <div class="eyebrow align-start">Testimonials</div>
+                    <div class="test-title">Real Stories<br> From Our Clients</div>
+                    <div class="test-para-flex">
+                        <div class="test-idx">(01)</div>
+                        <div class="para-col">
+                            <div class="test-para">"They have done a great job with a ridicously quick return time, while maintaining a great quality. Perfect for any business trying to react quickly and take hold of the social media gawk."<span>Lorem ipsum dolor sit amet consectetur. sssssssss s</span></div>
+                            <div class="test-pers-flex">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWqtwueo3qnz9V4pVjp2Yys7q1C6A0M3m8tWDBs5JmxfGFMPMgCaA=w36-h36-p-rp-mo-ba3-br100" class="test-avatar" />
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWK-hAS9EoHIItoEiEB8V5YkqkWAJfYHJfatu1js-YUiNQBHGmL=w36-h36-p-rp-mo-ba2-br100" class="test-avatar" style="opacity: 0; display: none;" />
+                                <img src="images/avatars/ricks.jpg" class="test-avatar" style="opacity: 0; display: none;" />
+                                <div class="pers-col">
+                                    <div class="pers-name">Kai Verona</div>
+                                    <div class="pers-job">19th August</div>
+                                </div>
+                                <div class="pers-col" style="opacity: 0; display: none;">
+                                    <div class="pers-name">Anje De jager</div>
+                                    <div class="pers-job">25th September</div>
+                                </div>
+                                <div class="pers-col" style="opacity: 0; display: none;">
+                                    <div class="pers-name">Rick's Retro</div>
+                                    <div class="pers-job">29th Oktober</div>
+                                </div>
+                                <div class="test-btn-flex">
+                                    <div class="test-btn" onclick="changeReview('left')"><i class="fa-solid fa-chevron-left test-chev"></i></div>
+                                    <div class="test-btn" onclick="changeReview('right')"><i class="fa-solid fa-chevron-right test-chev"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="test-contact-btn btn-primary">Let's talk</a>
+                </div>
+    
+                <div class="flow-wrapper scroll-target">
+                    <div class="flow-card">
+                        <div class="flow-head"><i class="fa-solid fa-lightbulb"></i> Contact us</div>
+                        <div class="flow-para">Tell us your project — your vision, goals, and style. We’ll listen and plan carefully.</div>
+                    </div>
+                    <div class="flow-dash flow-dash1 dash-top dash-right dash-bottom">
+                        <div class="flow-box flow-box1">Editing Process</div>
+                    </div>
+                    <div class="flow-logo-container">
+                            <img src="images/favicon.png" class="flow-logo" />
+                    </div>
+                    <div class="flow-dash flow-dash2 dash-top dash-left dash-bottom">
+                        <div class="flow-box flow-box2">Reviewing</div>
+                    </div>
+                    <div class="flow-card" style="margin-left: auto;">
+                        <div class="flow-head"><i class="fa-solid fa-flag-checkered"></i> Project Complete</div>
+                        <div class="flow-para">Your video is complete — designed to inspire, and showcase your creative vision.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="freq-container width" id="faq">
+        <div class="eyebrow scroll-target">FAQs</div>
+        <div class="freq-title scroll-target">Frequently Asked Questions</div>
+        <div class="freq-para scroll-target">Find quick answers to common questions about Elevare, our video services, process, and creative approach.</div>
+
+        <div class="freq-box freq-normal scroll-target">
+            <div class="freq-txt">What types of videos do you edit?</div>
+            <div class="freq-line-container">
+                <div class="freq-line fline1"></div>
+                <div class="freq-line fline2"></div>
+            </div>
+            <div class="freq-desc">We work on everything from short & long form social media content and corporate films to weddings, and creative projects.</div>
+        </div>
+        <div class="freq-box freq-normal scroll-target">
+            <div class="freq-txt">How long is the editing process?</div>
+            <div class="freq-line-container">
+                <div class="freq-line fline1"></div>
+                <div class="freq-line fline2"></div>
+            </div>
+            <div class="freq-desc">Turnaround time depends on the length and complexity of your project, but most edits are delivered within 4-6 business days.</div>
+        </div>
+        <div class="freq-box freq-normal scroll-target">
+            <div class="freq-txt">Do I need to provide the footage?</div>
+            <div class="freq-line-container">
+                <div class="freq-line fline1"></div>
+                <div class="freq-line fline2"></div>
+            </div>
+            <div class="freq-desc">Yes — we’ll need your raw clips, but we can also add licensed stock footage, music, and graphics to enhance your video.</div>
+        </div>
+        <div class="freq-box freq-normal scroll-target">
+            <div class="freq-txt">How much does video editing cost?</div>
+            <div class="freq-line-container">
+                <div class="freq-line fline1"></div>
+                <div class="freq-line fline2"></div>
+            </div>
+            <div class="freq-desc">Pricing varies based on the project’s length and complexity. Contact us with your idea, and we’ll provide a tailored quote.</div>
+        </div>
+        <div class="freq-box freq-normal scroll-target">
+            <div class="freq-txt">How many revisions are included?</div>
+            <div class="freq-line-container">
+                <div class="freq-line fline1"></div>
+                <div class="freq-line fline2"></div>
+            </div>
+            <div class="freq-desc">We offer up to 3 rounds of revisions to make sure the final video meets your expectations.</div>
+        </div>
+    </div>
+    <div class="call-border"></div>
+    <div class="call-wrapper">
+        <div class="call-txt">Interested in working with us? Message us at</div>
+        <div class="call-btn-container">
+            <a href="mailto:info@elevarecreatives.com" class="call-btn btn-primary">info@elevarecreatives.com</a>
+        </div>
+    </div>
+    <div class="call-border"></div>
+
+    <div class="get-container width scroll-target" id="contact">
+        <div class="get-flex">
+            <div class="get-col">
+                <div class="get-title">Get in Touch</div>
+                <div class="get-para">Have a video project in mind? Let’s talk — we’ll get back to you shortly.</div>
+
+                <div class="box-col">
+                    <a target="_blank" href="mailto:info@elevarecreatives.com" class="get-box">
+                        <div class="get-icon-wrapper"><i class="fa-regular fa-envelope get-icon"></i></div>
+                        <div class="get-details">
+                            <div class="get-label">Email Us</div>
+                            <div class="get-txt">info@elevarecreatives.com</div>
+                        </div>
+                        
+                        <div class="get-arr-wrapper"><i class="fa-solid fa-arrow-right get-arr"></i></div>
+                    </a>
+                    <a target="_blank" href="tel:07746979517" class="get-box">
+                        <div class="get-icon-wrapper"><i class="fa-solid fa-phone-volume get-icon"></i></div>
+                        <div class="get-details">
+                            <div class="get-label">Call Us</div>
+                            <div class="get-txt">(+44) 07716698892</div>
+                        </div>
+                        
+                        <div class="get-arr-wrapper"><i class="fa-solid fa-arrow-right get-arr"></i></div>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/elevare.creatives/" class="get-box">
+                        <div class="get-icon-wrapper"><i class="fa-brands fa-instagram get-icon get-insta"></i></div>
+                        <div class="get-details">
+                            <div class="get-label">Instagram</div>
+                            <div class="get-txt">@elevare.creatives</div>
+                        </div>
+
+                        <div class="get-arr-wrapper"><i class="fa-solid fa-arrow-right get-arr"></i></div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="get-col">
+                <form action="https://api.web3forms.com/submit" method="POST" class="get-form"> <!-- 366eaa81-c067-4df5-ba8f-17848466c1bb -->
+                    <input type="hidden" name="access_key" value="" />
+
+                    <input type="text" name="name" placeholder="Name" class="get-input" required/>
+                    <input type="text" name="email" placeholder="Email" class="get-input" required/>
+                    <textarea class="get-area" name="message" placeholder="Message" required></textarea>
+
+                    <button class="btn-form btn-primary" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot-bg" id="book-call">
+        <div class="foot-container">
+            <div class="foot-top">
+                <div class="ftop-left">
+                    <div class="foot-colab">
+                        <div class="colab-dot"></div>
+                        <div class="colab-txt">Open for any collaborations</div>
+                    </div>
+                    <div class="foot-title">Transforming Raw Footage Into Polished Content That Captivates Users</div>
+                    <a href="#contact" class="btn-foot btn-primary">Get started now <img src="images/arrow.png" class="btn-arrow" /></a>
+                </div>
+
+                <div class="ftop-right">
+                    <div class="ftop-right-col">
+                        <div class="foot-label">Email address</div>
+                        <a target="_blank" href="mailto:info@elevarecreatives.com" class="foot-txt">info@elevarecreatives.com</a>
+                    </div>
+                    <div class="ftop-right-col">
+                        <div class="foot-label">Phone number</div>
+                        <a target="_blank" href="tel:07746979517" class="foot-txt">(+44) 07716698892</a>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-bot">
+                <div class="fbot-left">
+                    <div class="foot-para">Discover Elevare, a creative agency specializing in video editing. Elevate your brand’s impact with our tailored, cinematic solutions.</div>
+                    <div class="foot-label">Get in touch:</div>
+                    <div class="foot-social-flex">
+                        <a target="_blank" href="mailto:info@elevarecreatives.com" class="foot-social"><i class="fa-regular fa-envelope foot-social-icon"></i></a>
+                        <a target="_blank" href="tel:07716698892" class="foot-social"><i class="fa-solid fa-phone foot-social-icon"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/elevare.creatives/" class="foot-social"><i class="fa-brands fa-instagram foot-social-icon"></i></a>
+                        <a target="_blank" href="https://www.tiktok.com/@elevare.creatives?_t=ZN-90xUSeKDy5O&_r=1" class="foot-social"><i class="fa-brands fa-tiktok foot-social-icon"></i></a>
+                        <a target="_blank" href="https://youtube.com/@elevare.creatives?si=fC___XH_fxzbC2pw" class="foot-social"><i class="fa-brands fa-youtube foot-social-icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="foot-nav">
+                    <div class="foot-nav-col">
+                        <div class="foot-label">Navigation</div>
+                        <a href="#about" class="foot-txt">About us</a>
+                        <a href="#work" class="foot-txt">Projects</a>
+                        <a href="#testimonials" class="foot-txt">Testimonials</a>
+                        <a href="#faq" class="foot-txt">FAQs</a>
+                        <a href="#contact" class="foot-txt">Contact us</a>
+                    </div>
+                    <div class="foot-nav-col">
+                        <div class="foot-label">Contact Us</div>
+                        <a href="tel:07716698892" class="foot-txt">Call Us</a>
+                        <a href="mailto:info@elevarecreatives.com" class="foot-txt">Email Us</a>
+                        <a href="#contact" class="foot-txt">Message Us</a>
+                        <a href="https://www.instagram.com/elevare.creatives/" class="foot-txt">Instagram</a>
+                        <a href="https://youtube.com/@elevare.creatives?si=fC___XH_fxzbC2pw" class="foot-txt">Youtube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-copy">Copyright © 2025 Elevare. Website by <a href="https://nextdesignwebsite.com" target="_blank" style="text-decoration: underline; border-top: 0;" class="foot-copy">NextDesign</a></div>
+
+            <div class="foot-img-container">
+                <img src="images/footer-bg.webp" class="foot-img" />
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
