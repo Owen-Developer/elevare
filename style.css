@@ -1390,6 +1390,50 @@ i.case-chev:hover {
 }
 /*////////////////////////////////////////////////////////////*/
 
+/*/////////////////////// CTA SECTION ///////////////////////*/
+.cta-container {
+    margin: 100px auto 0;
+    padding: 160px 0;
+    border-radius: 20px;
+    background: linear-gradient(to right, var(--red), var(--orange), var(--blue));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.cta-title {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    font-size: 62px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.2;
+}
+.btn-cta {
+    margin-top: 35px;
+    align-self: center;
+    background: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.4s ease;
+}
+.btn-cta img {
+    height: 13px;
+    width: auto;
+}
+.btn-cta:hover {
+    background-color: hsl(0, 0%, 25%);
+}
+/*///////////////////////////////////////////////////////////*/
+
 /*/////////////////////// FOOTER SECTION ///////////////////////*/
 .foot-bg {
     position: relative;
@@ -1942,6 +1986,16 @@ a.foot-txt:hover {
         height: 450px;
     }
 
+    .cta-title {
+        font-size: 42px;
+    }
+    .btn-cta {
+        font-size: 15px;
+    }
+    .btn-cta img {
+        height: 11px;
+    }
+
     .foot-bg {
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
@@ -2236,7 +2290,7 @@ a.foot-txt:hover {
     }.case-desc span {color: var(--orange) !important;}
 
     .test-container {
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .test-title {
         font-size: 38px;
@@ -2254,7 +2308,7 @@ a.foot-txt:hover {
 
     .freq-container {
         padding-top: 70px;
-        margin-top: 90px;
+        margin-top: 40px;
     }
     .freq-title {
         font-size: 36px;
@@ -2315,6 +2369,7 @@ a.foot-txt:hover {
     }
 
     .foot-bg {
+        margin-top: 60px;
         padding-top: 50px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -2334,5 +2389,14 @@ a.foot-txt:hover {
 
     .work-title {
         font-size: 32px;
+    }
+
+    .cta-container {
+        margin-top: 60px;
+        padding: 90px 0;
+    }
+    .cta-title {
+        font-size: 26px;
+        line-height: 1.3;
     }
 }
