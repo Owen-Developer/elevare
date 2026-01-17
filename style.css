@@ -287,11 +287,14 @@ body {
     opacity: 0.1;
     top: -1000px;
     left: -250px;
+    top: -100px;
+    left: 50px;
     transform: rotate(-20deg);
     width: 360px;
     height: 880px;
     background: linear-gradient(to bottom, hsl(0, 0%, 80%), hsl(0, 0%, 6%));
     animation: stripe1 1.8s ease forwards;
+    animation: none;
     animation-delay: 1s;
 }
 @keyframes stripe1 {
@@ -308,11 +311,14 @@ body {
     opacity: 0.1;
     top: -1100px;
     right: -250px;
+    top: 80px;
+    right: 80px;
     transform: rotate(20deg);
     width: 360px;
     height: 940px;
     background: linear-gradient(to bottom, hsl(0, 0%, 6%), hsl(0, 0%, 80%), hsl(0, 0%, 6%));
     animation: stripe2 1.8s ease forwards;
+    animation: none;
     animation-delay: 1.5s;
 }
 @keyframes stripe2 {
