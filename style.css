@@ -49,6 +49,17 @@ body {
     width: 1400px;
     max-width: calc(100% - 80px);
 }
+.newvideo {
+    margin: 50px auto 0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 1400px;
+    max-width: calc(100% - 80px);
+}
+.newvideo video {
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -2212,6 +2223,9 @@ a.foot-txt:hover {
     .width, .header {
         max-width: calc(100% - 20px);
     }
+    .newvideo {
+        margin-top: 35px;
+    }
 
     .hero-container {
         margin-top: 190px;
@@ -2310,6 +2324,10 @@ a.foot-txt:hover {
     }
     .flow-wrapper {
         display: none;
+    }
+
+    .work-container {
+        margin-top: 70px;
     }
 
     .freq-container {
